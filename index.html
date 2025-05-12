@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WDD 231 - Home Page</title>
+  <meta name="description" content="WDD 231 Course Home Page">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>WDD 231 - Course Home Page</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Chamber</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>My Courses</h2>
+      <div class="filters">
+        <button onclick="displayCourses()">All</button>
+        <button onclick="displayCourses('WDD')">WDD</button>
+        <button onclick="displayCourses('CIT')">CIT</button>
+      </div>
+      <div id="courseList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> | Last modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
