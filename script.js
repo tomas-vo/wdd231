@@ -4,11 +4,12 @@ document.getElementById("lastModified").textContent = document.lastModified;
 
 // Lista de cursos
 const courses = [
-  { code: "WDD130", name: "Web Fundamentals", credits: 3, completed: true },
-  { code: "WDD131", name: "Dynamic Web Fundamentals", credits: 3, completed: true },
-  { code: "WDD231", name: "Front-End Web Development", credits: 3, completed: false },
-  { code: "CIT111", name: "Intro to IT", credits: 2, completed: true },
-  { code: "CIT160", name: "Programming Fundamentals", credits: 3, completed: false }
+  { code: "WDD130", name: "Programming Fundamentals", credits: 1, completed: true },
+  { code: "CSE111", name: "Programming with Functions", credits: 2, completed: true },
+  { code: "CSE210", name: "Programming with classes", credits: 3, completed: true },
+  { code: "WDD130", name: "Web Fundamentals", credits: 2, completed: true },
+  { code: "WDD131", name: "Dynamic Web Fundamentals", credits: 2, completed: false },
+  { code: "WDD231", name: "Web Frontend Development", credits: 2, completed: false }
 ];
 
 // Mostrar cursos con filtro
